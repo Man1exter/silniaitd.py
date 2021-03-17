@@ -9,6 +9,7 @@ from math import sqrt as pierwiastek
 print("Losowa wartosc od 10 do 100 =====> ", randint(10,100))
 print("Pi wynosi ====> ", pi)
 print("pierwiastek z 16 ===> ", pierwiastek(16))
+print("pierwiastek z 16 ===> ", int(pierwiastek(16))) 
 
 
 ############################################################################
