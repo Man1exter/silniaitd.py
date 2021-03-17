@@ -1,5 +1,6 @@
 from random import randint
 from math import pi
+from math import sqrt as pierwiastek
 
 # print("Losowa wartosc od ... do ...")
 # val1 = int(input("wartosc 1: "))
@@ -7,7 +8,7 @@ from math import pi
 
 print("Losowa wartosc od 10 do 100 =====> ", randint(10,100))
 print("Pi wynosi ====> ", pi)
-
+print("pierwiastek z 16 ===> ", pierwiastek(16))
 
 
 ############################################################################
