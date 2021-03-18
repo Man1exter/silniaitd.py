@@ -7,7 +7,7 @@ print("============================================")
 ############################################################################
 
 x = 12
-y = 0
+y = 4
 # print( x / y )
 
 try:
@@ -17,6 +17,9 @@ except ZeroDivisionError:
     print("Blad dzielenia przez 0")
 except TypeError:
     print("Zle podane dane")
+finally:
+    print("Wszystko poszlo dobrze! :>")
+print("Dalszy wykonywany kod...")
 
 
 ############################################################################
