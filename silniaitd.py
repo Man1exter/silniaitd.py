@@ -2,6 +2,27 @@ from random import randint
 from math import pi
 from math import sqrt as pierwiastek
 
+############################################################################
+print("============================================")
+############################################################################
+
+x = 12
+y = 0
+# print( x / y )
+
+try:
+    print(x/y)
+    print("Zakonczona dobra linia")
+except ZeroDivisionError:
+    print("Blad dzielenia przez 0")
+except TypeError:
+    print("Zle podane dane")
+
+
+############################################################################
+print("============================================")
+############################################################################
+
 # print("Losowa wartosc od ... do ...")
 # val1 = int(input("wartosc 1: "))
 # val2 = int(input("wartosc 2: "))
@@ -9,7 +30,7 @@ from math import sqrt as pierwiastek
 print("Losowa wartosc od 10 do 100 =====> ", randint(10,100))
 print("Pi wynosi ====> ", pi)
 print("pierwiastek z 16 ===> ", pierwiastek(16))
-print("pierwiastek z 16 ===> ", int(pierwiastek(16))) 
+print("int pierwiastek z 16 ===> ", int(pierwiastek(16))) 
 
 
 ############################################################################
