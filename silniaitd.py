@@ -7,6 +7,7 @@ print("============================================")
 ############################################################################
 
 def dzielenieLiczb(x,y):
+    assert y != 0, "Y == 0  <==== UWAGA"
     if y == 0:
         raise ZeroDivisionError("Nie dzielimy przez zero!")
     print( x / y )
