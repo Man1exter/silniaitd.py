@@ -11,7 +11,7 @@ def dzielenieLiczb(x,y):
     if y == 0:
         raise ZeroDivisionError("Nie dzielimy przez zero!")
     print( x / y )
-dzielenieLiczb(2,0)
+dzielenieLiczb(2,4)
    
 ############################################################################
 print("============================================")
